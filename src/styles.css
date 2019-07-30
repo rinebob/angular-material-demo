@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* CUSTOMERS */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%  !important;
+
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+  }
+
+  .nav-links {
+
+  }
+
+.my-form
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.my-tab
+{
+  padding: 200px;
+}
+
+/* EMPLOYEES */
+
+.container-emp{
+  margin: 0px 40px;
+}
+
+.fill-remaining-space{
+  flex: 1 1 auto;
+}
+
+form.normal-form{
+  margin: 10px;
+}
+
+.controllers-container{
+  width: 100%;
+  padding: 5%;
+}
+
+.controllers-container > * {
+  width: 100%;
+}
+
+.add-bottom-padding{
+  padding: 10px;
+}
+
+mat-radio-group, mat-radio-button{
+  margin-left: 5px;
+  /* margin: 25px; */
+}
